@@ -1,0 +1,19 @@
+package com.chinasoft.app.domain;
+
+import java.io.Serializable;
+/**
+ * 订单表
+ * @author Administrator
+ *
+ */
+public class Order implements Serializable {
+
+	private Integer oid;
+	private Customer customer;
+	private Emp emp;
+	private String address;
+	private boolean flag;
+	
+	
+	
+}
